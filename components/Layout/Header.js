@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Link as LinkScroll } from "react-scroll";
-import LogoVPN from "../../public/assets/Logo.svg";
+
+import Image from "next/image";
+import NextLink from "next/link";
+
+import Logo from "../../public/assets/Logo.png";
 
 // icons
 import {
@@ -29,8 +33,17 @@ const Header = () => {
         }
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
-          <div className="col-start-1 col-end-2 flex items-center">
-            <LogoVPN className="h-8 w-auto" />
+          <div className="col-start-1 col-end-2 flex items-center cursor-pointer">
+            <NextLink href="https://uom.lk/eru" target="_blank">
+              <Image
+                src={Logo}
+                alt="ERU Symposium Logo"
+                width={200}
+                height={60}
+              />
+            </NextLink>
+
+            {/* <LogoVPN className="h-8 w-auto" /> */}
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             {HeaderNavLinks.map((link) => (
