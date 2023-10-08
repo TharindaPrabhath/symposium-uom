@@ -20,6 +20,7 @@ import {
   Shirt,
   Leaf,
 } from "lucide-react";
+import Link from "next/link";
 
 const AllowedTracks = [
   {
@@ -80,18 +81,25 @@ const Guidelines = () => {
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
-              className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
+              className="mx-auto my-2 text-center text-lg"
+            >
+              Extended abstract submission deadline{" "}
+              <strong className="text-orange-500">16th of Oct, 2023</strong>
+            </motion.p>
+            <motion.p
+              variants={scrollAnimation}
+              className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center text-lg"
             >
               ERU 2023 accepts extended abstracts of research under following
               tracks
             </motion.p>
           </ScrollAnimationWrapper>
-          <div className="">
+          <div className="grid grid-cols-1 gap-2 md:grid-cols-3">
             {AllowedTracks.map((track) => (
-              <ScrollAnimationWrapper className="flex justify-center">
+              <ScrollAnimationWrapper>
                 <motion.div
                   variants={scrollAnimation}
-                  className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
+                  // className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
                 >
                   <TrackCard
                     key={track.title}
@@ -101,6 +109,18 @@ const Guidelines = () => {
                 </motion.div>
               </ScrollAnimationWrapper>
             ))}
+          </div>
+
+          <div className="mt-8">
+            <p className="text-lg">
+              More information regarding to poster design and template,{" "}
+              <span className="text-orange-500">
+                <Link href="https://bit.ly/ERUS2023" target="_blank">
+                  Click Here
+                </Link>
+              </span>{" "}
+              to see more
+            </p>
           </div>
         </div>
 
@@ -154,7 +174,7 @@ export default Guidelines;
 const TrackCard = ({ title, icon }) => {
   const Icon = icon;
   return (
-    <div className="py-4 px-2 shadow-md rounded-md flex items-center justify-center gap-2">
+    <div className="py-6 px-4 shadow-md rounded-md flex items-center justify-center gap-2">
       <Icon className="w-6 h-6" />
       <p>{title}</p>
     </div>

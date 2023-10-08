@@ -4,9 +4,12 @@ import ButtonPrimary from "./misc/ButtonPrimary";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import { useRouter } from "next/router";
+import Link from "next/link";
 
 const Hero = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
+  const router = useRouter();
 
   return (
     <div className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto" id="home">
@@ -16,7 +19,7 @@ const Hero = () => {
           variants={scrollAnimation}
         >
           <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
-            <p>Symposium 2023 by UOM</p>
+            <p className="py-2 text-lg">Symposium 2023 by UOM</p>
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
               Engineer, Innovate and Unveil the Future!
             </h1>
@@ -25,7 +28,16 @@ const Hero = () => {
               tomorrow: the ERU Research Symposium 2023 is all set to ignite
               passion and spark innovation.
             </p>
-            <ButtonPrimary>Explore More</ButtonPrimary>
+
+            <h4 className="py-4 text-xl font-semibold">
+              December 5-6, 2023 | University of Moratuwa
+            </h4>
+
+            <Link href="https://bit.ly/ERUS2023" target="_blank">
+              <button className="py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-orange-500 hover:shadow-orange-md transition-all outline-none">
+                Explore More
+              </button>
+            </Link>
           </div>
           <div className="flex w-full">
             <motion.div className="h-full w-full" variants={scrollAnimation}>

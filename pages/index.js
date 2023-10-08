@@ -15,7 +15,7 @@ export default function Home() {
         <About />
         <Guidelines />
         <Awards />
-        <Contact />
+        {/* <Contact /> */}
       </Layout>
     </>
   );
