@@ -127,23 +127,23 @@ const HeaderNavLinks = [
     icon: HelpCircle,
   },
   {
+    label: "Timeline",
+    href: "timeline",
+    icon: CalendarDays,
+  },
+  {
     label: "Guidelines",
     href: "guidelines",
     icon: ScrollText,
   },
-  // {
-  //   label: "Timeline",
-  //   href: "timeline",
-  //   icon: CalendarDays,
-  // },
   {
     label: "Awards",
     href: "awards",
     icon: Trophy,
   },
-  {
-    label: "Contact",
-    href: "contact",
-    icon: Mail,
-  },
+  // {
+  //   label: "Contact",
+  //   href: "contact",
+  //   icon: Mail,
+  // },
 ];

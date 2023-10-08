@@ -4,7 +4,7 @@ import SeoHead from "../components/SeoHead";
 import About from "../components/About";
 import Guidelines from "../components/Guidelines";
 import Awards from "../components/Awards";
-import Contact from "../components/Contact";
+import Timeline from "../components/Timeline";
 
 export default function Home() {
   return (
@@ -13,9 +13,9 @@ export default function Home() {
       <Layout>
         <Hero />
         <About />
+        <Timeline />
         <Guidelines />
         <Awards />
-        {/* <Contact /> */}
       </Layout>
     </>
   );

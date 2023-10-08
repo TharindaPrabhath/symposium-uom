@@ -48,9 +48,9 @@ const Footer = () => {
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               Awards{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            {/* <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               Contact{" "}
-            </li>
+            </li> */}
           </ul>
         </div>
         {/* <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
