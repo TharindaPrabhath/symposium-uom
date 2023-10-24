@@ -8,13 +8,13 @@ const defaultMeta = {
   description:
     "Landing page for the event of ERU Symposium 2023 University of Moratuwa",
   // change base url of your web (without '/' at the end)
-  url: "https://next-landing-vpn.vercel.app",
+  url: "http://eru-symposium.uom.lk/",
   type: "website",
   robots: "follow, index",
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status
   image:
-    "https://res.cloudinary.com/driflys/image/upload/v1696794846/ERU_Symposium_2023_Landing_Page_vffe1m.png",
+    "https://res.cloudinary.com/driflys/image/upload/v1698178748/uom_logo_bgin72.png",
   author: "",
 };
 
@@ -63,7 +63,7 @@ const SeoHead = (props) => {
       <meta name="image" property="og:image" content={meta.image} />
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@F2aldi" />
+      <meta name="twitter:site" content="@MoratuwaUni" />
       <meta name="twitter:title" content={meta.title} />
       <meta name="twitter:description" content={meta.description} />
       <meta name="twitter:image" content={meta.image} />
