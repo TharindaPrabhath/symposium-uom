@@ -1,11 +1,12 @@
 import React, { useMemo } from "react";
 import Image from "next/image";
-import ButtonPrimary from "./misc/ButtonPrimary";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import { useRouter } from "next/router";
 import Link from "next/link";
+
+import UOM from "../public/assets/uom.jpg";
 
 const Hero = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -33,20 +34,26 @@ const Hero = () => {
               December 5-6, 2023 | University of Moratuwa
             </h4>
 
-            <Link href="https://bit.ly/ERUS2023" target="_blank">
+            <Link
+              href="https://cmt3.research.microsoft.com/ERUS2023/"
+              target="_blank"
+            >
               <button className="py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-orange-500 hover:shadow-orange-md transition-all outline-none">
-                Explore More
+                Submit Your Paper
               </button>
             </Link>
+            <p className="mt-2 text-sm">
+              * You may have to create a CMT account to submit papers
+            </p>
           </div>
           <div className="flex w-full">
             <motion.div className="h-full w-full" variants={scrollAnimation}>
               <Image
-                src="/assets/Illustration1.png"
-                alt="VPN Illustrasi"
+                src={UOM}
+                alt="University of Moratuwa"
                 quality={100}
                 width={612}
-                height={383}
+                // height={383}
                 layout="responsive"
               />
             </motion.div>

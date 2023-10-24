@@ -84,7 +84,9 @@ const Guidelines = () => {
               className="mx-auto my-2 text-center text-lg"
             >
               Extended abstract submission deadline{" "}
-              <strong className="text-orange-500">16th of Oct, 2023</strong>
+              <strong className="text-orange-500">
+                30th of Oct, 2023 (Before Midnight)
+              </strong>
             </motion.p>
             <motion.p
               variants={scrollAnimation}
@@ -111,12 +113,38 @@ const Guidelines = () => {
             ))}
           </div>
 
-          <div className="mt-8">
+          <div className="mt-8 flex flex-col gap-4">
             <p className="text-lg">
-              More information regarding to poster design and template,{" "}
+              More information regarding to guidelines,{" "}
               <span className="text-orange-500">
-                <Link href="https://bit.ly/ERUS2023" target="_blank">
-                  Click Here
+                <Link
+                  href="https://dms.uom.lk/s/jsrMCCEFnEkQ9Zr?dir=undefined&openfile=37341357"
+                  target="_blank"
+                >
+                  Guidelines PDF
+                </Link>
+              </span>
+            </p>
+            <p className="text-lg">
+              Poster template,{" "}
+              <span className="text-orange-500">
+                <Link
+                  href="https://dms.uom.lk/apps/onlyoffice/s/jsrMCCEFnEkQ9Zr?fileId=37341266"
+                  target="_blank"
+                >
+                  Click here
+                </Link>
+              </span>{" "}
+              to see more
+            </p>
+            <p className="text-lg">
+              Sample poster design,{" "}
+              <span className="text-orange-500">
+                <Link
+                  href="https://dms.uom.lk/apps/onlyoffice/s/jsrMCCEFnEkQ9Zr?fileId=37341267"
+                  target="_blank"
+                >
+                  Click here
                 </Link>
               </span>{" "}
               to see more

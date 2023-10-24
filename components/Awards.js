@@ -6,8 +6,11 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
+import MedalAward from "../public/assets/medal_award.png";
+
 // Icons
 import { Award, Check } from "lucide-react";
+import Image from "next/image";
 
 const Awards = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -32,15 +35,15 @@ const Awards = () => {
         <div className="mt-12 flex flex-col gap-4">
           <div className="flex flex-row items-center justify-center">
             <Check className="w-6 h-6 mr-2" />
-            <p className="text-lg font-semibold">
-              A valuable certificate will be received
+            <p className="text-lg font-semibold text-orange-500">
+              The abstracts will be published with a DOI in the University of
+              Moratuwa Library Website
             </p>
           </div>
           <div className="flex flex-row items-center justify-center">
             <Check className="w-6 h-6 mr-2" />
             <p className="text-lg font-semibold">
-              The abstracts will be published with a DOI in the University of
-              Moratuwa Library Website
+              A valuable certificate will be received
             </p>
           </div>
         </div>
@@ -53,13 +56,14 @@ export default Awards;
 
 const AwardCard = ({ title }) => {
   return (
-    <div className="flex items-center gap-4 ">
-      <div className="rounded-full shadow-md flex items-center justify-center p-6">
-        <Award className="w-14 h-14" />
-      </div>
-      <div>
-        <p className="text-xl font-semibold">{title}</p>
-      </div>
+    <div className="relative shadow-md rounded-xl px-8 py-6">
+      <Image
+        src={MedalAward}
+        alt="Medal Award"
+        width={150}
+        objectFit="contain"
+      />
+      <p className="text-2xl font-semibold">{title}</p>
     </div>
   );
 };

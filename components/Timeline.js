@@ -40,7 +40,8 @@ const Timeline = () => {
                 Extended Abstract Submission
               </h3>
               <time class="block mb-2 text-sm font-normal leading-none">
-                October 16th, 2023
+                October 30th, 2023{" "}
+                <strong className="text-orange-500">(Before Midnight)</strong>
               </time>
             </li>
             <li class="mb-16 ml-6">
