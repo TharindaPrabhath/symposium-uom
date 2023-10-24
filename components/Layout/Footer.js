@@ -53,29 +53,6 @@ const Footer = () => {
             </li> */}
           </ul>
         </div>
-        {/* <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Engage</p>
-          <ul className="text-black-500">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              LaslesVPN ?{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              FAQ{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Tutorials{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              About Us{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Privacy Policy{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Terms of Service{" "}
-            </li>
-          </ul>
-        </div> */}
         <div className="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">Contact</p>
           <div className="text-sm">
@@ -87,7 +64,7 @@ const Footer = () => {
 
           <div className="mt-4 text-sm">
             <p>+94 77 113 7559</p>
-            <p>+94 11 265 0301</p>
+            <p>+94 11 265 0301 Ext: 4531</p>
           </div>
           <p className="mt-4 text-sm">herathrp@uom.lk</p>
         </div>

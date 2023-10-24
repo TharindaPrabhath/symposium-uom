@@ -126,6 +126,17 @@ const Guidelines = () => {
               </span>
             </p>
             <p className="text-lg">
+              ERU Extended Abstract Template,{" "}
+              <span className="text-orange-500">
+                <Link
+                  href="https://dms.uom.lk/apps/onlyoffice/s/jsrMCCEFnEkQ9Zr?fileId=37341264"
+                  target="_blank"
+                >
+                  Click here
+                </Link>
+              </span>
+            </p>
+            <p className="text-lg">
               Poster template,{" "}
               <span className="text-orange-500">
                 <Link
@@ -151,7 +162,7 @@ const Guidelines = () => {
             </p>
           </div>
         </div>
-
+        {/*  */}
         {/* <div className="flex flex-col w-full my-16" id="testimoni">
           <ScrollAnimationWrapper>
             <motion.h3
