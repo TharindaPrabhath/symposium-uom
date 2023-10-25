@@ -1,11 +1,9 @@
 import React, { useMemo } from "react";
-import Image from "next/image";
-import Testimoni from "./Testimoni";
-import ButtonPrimary from "./misc/ButtonPrimary";
-import ButtonOutline from "./misc/ButtonOutline.";
-import Maps from "../public/assets/HugeGlobal.svg";
+
 import { motion } from "framer-motion";
+
 import getScrollAnimation from "../utils/getScrollAnimation";
+
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 // Icons
@@ -115,7 +113,7 @@ const Guidelines = () => {
 
           <div className="mt-8 flex flex-col gap-4">
             <p className="text-lg">
-              More information regarding to guidelines,{" "}
+              More information regarding guidelines,{" "}
               <span className="text-orange-500">
                 <Link
                   href="https://dms.uom.lk/s/jsrMCCEFnEkQ9Zr?dir=undefined&openfile=37341357"
