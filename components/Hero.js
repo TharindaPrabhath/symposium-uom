@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
 
           <h4 className="py-4 text-xl font-semibold">
-            December 5-6, 2023 | University of Moratuwa
+            December 05-06, 2023 | University of Moratuwa
           </h4>
 
           <Link

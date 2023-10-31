@@ -1,5 +1,7 @@
 import React, { useMemo } from "react";
 
+import Link from "next/link";
+
 import { motion } from "framer-motion";
 
 import getScrollAnimation from "../utils/getScrollAnimation";
@@ -18,7 +20,6 @@ import {
   Shirt,
   Leaf,
 } from "lucide-react";
-import Link from "next/link";
 
 const AllowedTracks = [
   {
@@ -83,7 +84,7 @@ const Guidelines = () => {
             >
               Extended abstract submission deadline{" "}
               <strong className="text-orange-500">
-                30th of Oct, 2023 (Before Midnight)
+                5th of Nov, 2023 (Before Midnight)
               </strong>
             </motion.p>
             <motion.p
@@ -113,6 +114,53 @@ const Guidelines = () => {
 
           <div className="mt-8 flex flex-col gap-4">
             <p className="text-lg">
+              ⭕ The extended abstracts should be of{" "}
+              <strong>A4 size - Two (2) pages</strong>, prepared according to{" "}
+              <span className="text-orange-500">
+                <Link
+                  href="https://dms.uom.lk/apps/onlyoffice/s/jsrMCCEFnEkQ9Zr?fileId=37341264"
+                  target="_blank"
+                >
+                  this template
+                </Link>
+              </span>
+            </p>
+
+            <p className="text-lg">
+              ⭕ The posters should be of <strong>A1 size - Portrait</strong>,
+              adhering to the{" "}
+              <span className="text-orange-500">
+                <Link
+                  href="https://dms.uom.lk/s/jsrMCCEFnEkQ9Zr?dir=undefined&openfile=37341357"
+                  target="_blank"
+                >
+                  given guidelines
+                </Link>
+              </span>{" "}
+              and{" "}
+              <span className="text-orange-500">
+                <Link
+                  href="https://dms.uom.lk/apps/onlyoffice/s/jsrMCCEFnEkQ9Zr?fileId=37341266"
+                  target="_blank"
+                >
+                  the template
+                </Link>
+              </span>
+            </p>
+
+            <p className="text-lg">
+              ⭕ You can also refer to the,{" "}
+              <span className="text-orange-500">
+                <Link
+                  href="https://dms.uom.lk/apps/onlyoffice/s/jsrMCCEFnEkQ9Zr?fileId=37341267"
+                  target="_blank"
+                >
+                  sample poster design
+                </Link>
+              </span>
+            </p>
+
+            {/* <p className="text-lg">
               More information regarding guidelines,{" "}
               <span className="text-orange-500">
                 <Link
@@ -122,8 +170,9 @@ const Guidelines = () => {
                   Guidelines PDF
                 </Link>
               </span>
-            </p>
-            <p className="text-lg">
+            </p> */}
+
+            {/* <p className="text-lg">
               ERU Extended Abstract Template,{" "}
               <span className="text-orange-500">
                 <Link
@@ -133,8 +182,8 @@ const Guidelines = () => {
                   Click here
                 </Link>
               </span>
-            </p>
-            <p className="text-lg">
+            </p> */}
+            {/* <p className="text-lg">
               Poster template,{" "}
               <span className="text-orange-500">
                 <Link
@@ -145,19 +194,7 @@ const Guidelines = () => {
                 </Link>
               </span>{" "}
               to see more
-            </p>
-            <p className="text-lg">
-              Sample poster design,{" "}
-              <span className="text-orange-500">
-                <Link
-                  href="https://dms.uom.lk/apps/onlyoffice/s/jsrMCCEFnEkQ9Zr?fileId=37341267"
-                  target="_blank"
-                >
-                  Click here
-                </Link>
-              </span>{" "}
-              to see more
-            </p>
+            </p> */}
           </div>
         </div>
         {/*  */}

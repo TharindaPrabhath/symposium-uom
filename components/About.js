@@ -42,8 +42,8 @@ const About = () => {
             >
               <p className="text-lg">
                 ERU Research Symposium-2023 is organized as an event parallel to
-                the <strong>University of Moratuwa Research Week.</strong>
-                ERU Symposium provides an excellent opportunity for academics,
+                the <strong>University of Moratuwa Research Week.</strong> ERU
+                Symposium provides an excellent opportunity for academics,
                 industry practitioners, and students to showcase their research.
               </p>
             </motion.div>
