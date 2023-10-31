@@ -1,5 +1,7 @@
 import React, { useMemo } from "react";
 
+import Image from "next/image";
+
 import { motion } from "framer-motion";
 
 import getScrollAnimation from "../utils/getScrollAnimation";
@@ -9,8 +11,7 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import MedalAward from "../public/assets/medal_award.png";
 
 // Icons
-import { Award, Check } from "lucide-react";
-import Image from "next/image";
+import { Check } from "lucide-react";
 
 const Awards = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
