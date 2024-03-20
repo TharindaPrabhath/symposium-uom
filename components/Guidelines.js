@@ -69,7 +69,7 @@ const Guidelines = () => {
 
   return (
     <div id="guidelines">
-      <div className="max-w-screen-xl py-6 px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
+      <div className="max-w-screen-xl mt-28 py-6 px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
           <ScrollAnimationWrapper>
             <motion.h3

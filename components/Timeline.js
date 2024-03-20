@@ -11,7 +11,7 @@ const Timeline = () => {
 
   return (
     <div id="timeline">
-      <div className="max-w-screen-xl mt-2 mb-16 px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full justify-center">
+      <div className="max-w-screen-xl mt-16 mb-16 px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full justify-center">
         <div className="flex flex-col w-full text-center">
           <ScrollAnimationWrapper>
             <motion.h3

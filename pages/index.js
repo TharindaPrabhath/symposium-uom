@@ -5,6 +5,7 @@ import About from "../components/About";
 import Guidelines from "../components/Guidelines";
 import Awards from "../components/Awards";
 import Timeline from "../components/Timeline";
+import Team from "../components/Team";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Timeline />
         <Guidelines />
         <Awards />
+        <Team />
       </Layout>
     </>
   );

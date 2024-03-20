@@ -1,9 +1,9 @@
 import React from "react";
-import Logo from "../../public/assets/Logo.png";
-import Facebook from "../../public/assets/Icon/facebook.svg";
-import Twitter from "../../public/assets/Icon/twitter.svg";
-import Instagram from "../../public/assets/Icon/instagram.svg";
+
 import Image from "next/image";
+
+import Logo from "../../public/assets/Logo.png";
+
 const Footer = () => {
   return (
     <div className="bg-white-300 pt-44 pb-24">
@@ -48,9 +48,9 @@ const Footer = () => {
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               Awards{" "}
             </li>
-            {/* <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Contact{" "}
-            </li> */}
+            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+              Team{" "}
+            </li>
           </ul>
         </div>
         <div className="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">

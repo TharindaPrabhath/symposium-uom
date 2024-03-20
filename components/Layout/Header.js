@@ -12,8 +12,8 @@ import {
   HelpCircle,
   ScrollText,
   Trophy,
-  Mail,
   CalendarDays,
+  Users,
 } from "lucide-react";
 
 const Header = () => {
@@ -141,9 +141,9 @@ const HeaderNavLinks = [
     href: "awards",
     icon: Trophy,
   },
-  // {
-  //   label: "Contact",
-  //   href: "contact",
-  //   icon: Mail,
-  // },
+  {
+    label: "Team",
+    href: "team",
+    icon: Users,
+  },
 ];

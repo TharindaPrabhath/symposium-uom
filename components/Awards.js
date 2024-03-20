@@ -18,7 +18,7 @@ const Awards = () => {
 
   return (
     <div id="awards">
-      <div className="pb-12 max-w-screen-xl mt-12 px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
+      <div className="pb-12 max-w-screen-xl mt-28 px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
           <ScrollAnimationWrapper>
             <motion.h3
