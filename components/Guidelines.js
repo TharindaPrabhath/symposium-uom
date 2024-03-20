@@ -118,7 +118,7 @@ const Guidelines = () => {
               <strong>A4 size - Two (2) pages</strong>, prepared according to{" "}
               <span className="text-orange-500">
                 <Link
-                  href="https://dms.uom.lk/apps/onlyoffice/s/jsrMCCEFnEkQ9Zr?fileId=37341264"
+                  href="https://dms.uom.lk/s/As6TSFRQoABWmTR"
                   target="_blank"
                 >
                   this template
@@ -131,7 +131,7 @@ const Guidelines = () => {
               adhering to the{" "}
               <span className="text-orange-500">
                 <Link
-                  href="https://dms.uom.lk/s/jsrMCCEFnEkQ9Zr?dir=undefined&openfile=37341357"
+                  href="https://dms.uom.lk/s/As6TSFRQoABWmTR"
                   target="_blank"
                 >
                   given guidelines
@@ -140,7 +140,7 @@ const Guidelines = () => {
               and{" "}
               <span className="text-orange-500">
                 <Link
-                  href="https://dms.uom.lk/apps/onlyoffice/s/jsrMCCEFnEkQ9Zr?fileId=37341266"
+                  href="https://dms.uom.lk/s/As6TSFRQoABWmTR"
                   target="_blank"
                 >
                   the template
@@ -152,7 +152,7 @@ const Guidelines = () => {
               ⭕ You can also refer to the,{" "}
               <span className="text-orange-500">
                 <Link
-                  href="https://dms.uom.lk/apps/onlyoffice/s/jsrMCCEFnEkQ9Zr?fileId=37341267"
+                  href="https://dms.uom.lk/s/As6TSFRQoABWmTR"
                   target="_blank"
                 >
                   sample poster design

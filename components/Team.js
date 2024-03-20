@@ -46,16 +46,18 @@ const Team = () => {
               position="Co-Chair"
               name="Dr Kasun De Silva"
             />
-            <MemberCard
-              image={PrabhathiyaSir}
-              position="Local organizing Chair"
-              name="Mr Prabhathiya Herath"
-            />
-            <MemberCard
-              image={Me}
-              position="Webmaster"
-              name="Tharinda Anurajeewa"
-            />
+            <div className="flex flex-col justify-center items-center md:flex-row gap-6 md:col-start-1 md:col-span-3 md:row-start-2">
+              <MemberCard
+                image={PrabhathiyaSir}
+                position="Local organizing Chair"
+                name="Mr Prabhathiya Herath"
+              />
+              <MemberCard
+                image={Me}
+                position="Webmaster"
+                name="Tharinda Anurajeewa"
+              />
+            </div>
           </div>
         </div>
       </div>
