@@ -20,27 +20,28 @@ const Hero = () => {
     >
       <div className="flex flex-col gap-4 md:flex-row items-center">
         <div className="flex flex-col justify-center items-start py-4">
-          <p className="py-2 text-lg">Symposium 2023 by UOM</p>
+          {/* <p className="py-2 text-lg">Symposium 2023 by UOM</p> */}
           <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-            Engineer, Innovate and Unveil the Future!
+            ERU Symposium 2024 by UOM
           </h1>
           <p className="text-black-500 mt-4 mb-6">
-            The stage where young minds pioneer in shaping the world of
-            tomorrow: the ERU Research Symposium 2023 is all set to ignite
-            passion and spark innovation.
+            ERU Symposium, organized by the University of Moratuwa, showcases
+            cutting-edge research and innovation, bringing together academics,
+            industry professionals, and students for knowledge sharing and
+            collaboration
           </p>
 
           <h4 className="py-4 text-xl font-semibold">
-            December 05-06, 2023 | University of Moratuwa
+            December 10-11, 2024 | University of Moratuwa
           </h4>
 
           <Link href="http://dl.lib.uom.lk/handle/123/22458" target="_blank">
             <button className="py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-orange-500 hover:shadow-orange-md transition-all outline-none">
-              ERUS 2023 Proceedings
+              Submit Paper
             </button>
           </Link>
           <p className="mt-2 text-sm">
-            * You may have to create a CMT account to submit papers
+            * You may have to create a CMT account prior to submitting the paper
           </p>
         </div>
         <div className="flex w-full">
@@ -49,8 +50,8 @@ const Hero = () => {
               src={UOM}
               alt="University of Moratuwa"
               quality={100}
-              width={612}
-              // height={383}
+              width={700}
+              height={450}
               layout="responsive"
             />
           </div>

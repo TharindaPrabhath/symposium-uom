@@ -28,24 +28,30 @@ const Awards = () => {
               Awards
             </motion.h3>
           </ScrollAnimationWrapper>
+          <div className="mt-12 flex flex-col gap-4">
+            <div className="flex flex-row items-center justify-center">
+              <Check className="w-6 h-6 mr-2" />
+              <p className="text-lg font-semibold">
+                Proceedings will be published with ISSN: 3051-4894
+              </p>
+            </div>
+            <div className="flex flex-row items-center justify-center">
+              <Check className="w-6 h-6 mr-2" />
+              <p className="text-lg font-semibold text-orange-500">
+                The abstracts will be published with a DOI in the University of
+                Moratuwa Library Website
+              </p>
+            </div>
+            <div className="flex flex-row items-center justify-center">
+              <Check className="w-6 h-6 mr-2" />
+              <p className="text-lg font-semibold">
+                A valuable certificate will be received
+              </p>
+            </div>
+          </div>
           <div className="mt-6 grid grid-cols-1 gap-12 md:grid-cols-2 mx-auto">
             <AwardCard title="Best Extended Abstract" />
             <AwardCard title="Best Poster" />
-          </div>
-        </div>
-        <div className="mt-12 flex flex-col gap-4">
-          <div className="flex flex-row items-center justify-center">
-            <Check className="w-6 h-6 mr-2" />
-            <p className="text-lg font-semibold text-orange-500">
-              The abstracts will be published with a DOI in the University of
-              Moratuwa Library Website
-            </p>
-          </div>
-          <div className="flex flex-row items-center justify-center">
-            <Check className="w-6 h-6 mr-2" />
-            <p className="text-lg font-semibold">
-              A valuable certificate will be received
-            </p>
           </div>
         </div>
       </div>

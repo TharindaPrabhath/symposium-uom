@@ -18,7 +18,7 @@ const Timeline = () => {
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
             >
-              Timeline (Revised)
+              Timeline
             </motion.h3>
           </ScrollAnimationWrapper>
         </div>
@@ -40,7 +40,7 @@ const Timeline = () => {
                 Extended Abstract Submission
               </h3>
               <time className="block mb-2 text-sm font-normal leading-none">
-                November 5th, 2023{" "}
+                October 15th, 2024{" "}
                 <strong className="text-orange-500">(Before Midnight)</strong>
               </time>
             </li>
@@ -60,7 +60,7 @@ const Timeline = () => {
                 Acceptance Notification
               </h3>
               <time className="block mb-2 text-sm font-normal leading-none">
-                November 13th, 2023
+                November 15th, 2024
               </time>
             </li>
             <li className="mb-16 ml-6">
@@ -79,7 +79,7 @@ const Timeline = () => {
                 Final Submission & Registration
               </h3>
               <time className="block mb-2 text-sm font-normal leading-none">
-                November 26th, 2023
+                November 28th, 2024
               </time>
             </li>
             <li className="ml-6">
@@ -98,7 +98,7 @@ const Timeline = () => {
                 Symposium
               </h3>
               <time className="block mb-2 text-sm font-normal leading-none">
-                December 5th-6th, 2023
+                December 10th-11th, 2024
               </time>
             </li>
           </ol>

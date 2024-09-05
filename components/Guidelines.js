@@ -80,15 +80,6 @@ const Guidelines = () => {
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
-              className="mx-auto my-2 text-center text-lg"
-            >
-              Extended abstract submission deadline{" "}
-              <strong className="text-orange-500">
-                5th of Nov, 2023 (Before Midnight)
-              </strong>
-            </motion.p>
-            <motion.p
-              variants={scrollAnimation}
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center text-lg"
             >
               ERU 2023 accepts extended abstracts of research under following
@@ -113,7 +104,25 @@ const Guidelines = () => {
           </div>
 
           <div className="mt-8 flex flex-col gap-4">
-            <p className="text-lg">
+            <div className="grid grid-cols-1 gap-2 md:grid-cols-3">
+              <ReferenceCard
+                title="Extended Abstract"
+                description="The extended abstracts should be of A4 size - Two (2) pages, prepared according to this template"
+                link="https://dms.uom.lk/s/As6TSFRQoABWmTR"
+              />
+              <ReferenceCard
+                title="Poster"
+                description="The posters should be of A1 size - Portrait, adhering to the given guidelines and the template"
+                link="https://dms.uom.lk/s/As6TSFRQoABWmTR"
+              />
+              <ReferenceCard
+                title="Extended Abstract"
+                description="You can also refer to the, sample poster design"
+                link="https://dms.uom.lk/s/As6TSFRQoABWmTR"
+              />
+            </div>
+
+            {/* <p className="text-lg">
               ⭕ The extended abstracts should be of{" "}
               <strong>A4 size - Two (2) pages</strong>, prepared according to{" "}
               <span className="text-orange-500">
@@ -158,7 +167,7 @@ const Guidelines = () => {
                   sample poster design
                 </Link>
               </span>
-            </p>
+            </p> */}
 
             {/* <p className="text-lg">
               More information regarding guidelines,{" "}
@@ -251,6 +260,24 @@ const TrackCard = ({ title, icon }) => {
     <div className="py-6 px-4 shadow-md rounded-md flex items-center justify-center gap-2">
       <Icon className="w-6 h-6" />
       <p>{title}</p>
+    </div>
+  );
+};
+
+const ReferenceCard = ({ title, description, link }) => {
+  return (
+    <div className="p-6 shadow-md rounded-md flex flex-col items-start gap-4">
+      <h2 className=" font-bold">{title}</h2>
+      <p className="text-left">{description}</p>
+      <a href={link} target="_blank">
+        <button
+          href={link}
+          target="_blank"
+          className="border-2 px-4 py-2 rounded-md hover:bg-orange-500 hover:text-white-300"
+        >
+          Read More
+        </button>
+      </a>
     </div>
   );
 };
