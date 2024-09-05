@@ -45,7 +45,7 @@ const Awards = () => {
             <div className="flex flex-row items-center justify-center">
               <Check className="w-6 h-6 mr-2" />
               <p className="text-lg font-semibold">
-                A valuable certificate will be received
+                A valuable certificate will be awarded.
               </p>
             </div>
           </div>

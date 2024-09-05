@@ -3,10 +3,10 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: "ERU Symposium 2023",
-  siteName: "ERU Symposium 2023",
+  title: "ERU Symposium 2024",
+  siteName: "ERU Symposium 2024",
   description:
-    "Landing page for the event of ERU Symposium 2023 University of Moratuwa",
+    "Landing page for the event of ERU Symposium 2024 University of Moratuwa",
   // change base url of your web (without '/' at the end)
   url: "http://eru-symposium.uom.lk/",
   type: "website",

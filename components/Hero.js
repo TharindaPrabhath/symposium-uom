@@ -20,9 +20,8 @@ const Hero = () => {
     >
       <div className="flex flex-col gap-4 md:flex-row items-center">
         <div className="flex flex-col justify-center items-start py-4">
-          {/* <p className="py-2 text-lg">Symposium 2023 by UOM</p> */}
           <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-            ERU Symposium 2024 by UOM
+            ERU Symposium 2024
           </h1>
           <p className="text-black-500 mt-4 mb-6">
             ERU Symposium, organized by the University of Moratuwa, showcases
@@ -35,9 +34,9 @@ const Hero = () => {
             December 10-11, 2024 | University of Moratuwa
           </h4>
 
-          <Link href="http://dl.lib.uom.lk/handle/123/22458" target="_blank">
+          <Link href="/submission-coming-soon" target="_blank">
             <button className="py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-orange-500 hover:shadow-orange-md transition-all outline-none">
-              Submit Paper
+              Submit Extended Abstract
             </button>
           </Link>
           <p className="mt-2 text-sm">

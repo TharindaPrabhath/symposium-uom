@@ -10,7 +10,7 @@ import Team from "../components/Team";
 export default function Home() {
   return (
     <>
-      <SeoHead title="ERU Symposium 2023" />
+      <SeoHead title="ERU Symposium 2024" />
       <Layout>
         <Hero />
         <About />
