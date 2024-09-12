@@ -24,17 +24,21 @@ const Hero = () => {
             ERU Symposium 2024
           </h1>
           <p className="text-black-500 mt-4 mb-6">
-            ERU Symposium, organized by the University of Moratuwa, showcases
-            cutting-edge research and innovation, bringing together academics,
-            industry professionals, and students for knowledge sharing and
-            collaboration
+            ERU Symposium, organized by Faculty of Engineering, University of
+            Moratuwa, provides a platform for researchers to showcase their
+            latest research and innovations. The symposium brings academics,
+            industry professionals, and students together for knowledge sharing
+            and future collaboration.
           </p>
 
           <h4 className="py-4 text-xl font-semibold">
             December 10-11, 2024 | University of Moratuwa
           </h4>
 
-          <Link href="/submission-coming-soon" target="_blank">
+          <Link
+            href="https://cmt3.research.microsoft.com/ERUS2024"
+            target="_blank"
+          >
             <button className="py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-orange-500 hover:shadow-orange-md transition-all outline-none">
               Submit Extended Abstract
             </button>
