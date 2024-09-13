@@ -82,7 +82,7 @@ const Guidelines = () => {
               variants={scrollAnimation}
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center text-lg"
             >
-              ERU 2023 accepts extended abstracts of research under following
+              ERU 2024 accepts extended abstracts of research under following
               tracks
             </motion.p>
           </ScrollAnimationWrapper>
